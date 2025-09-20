@@ -1,0 +1,2136 @@
+@prefix : <http://www.semanticweb.org/thech/ontologies/2024/11/Product_Ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Amita a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Amita"@en .
+
+:Catsan a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Catsan"@en .
+
+:Delta a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Delta"@en .
+
+:Doritos a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Doritos"@en .
+
+:GlassBottle a :ContainerType ;
+    rdfs:label "PlasticBottle"@en .
+
+:Huggies a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Huggies"@en .
+
+:Nescafe a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Nescafe"@en .
+
+:PlasticBottle a :ContainerType ;
+    rdfs:label "Plastic Bottle"@en .
+
+:PriceSpec_00bd102ddffc4a79b6470c72d2344dba :hasPrice "0.9"^^xsd:float .
+
+:PriceSpec_0411c40b9da04536968960a2e00b5f3c :hasPrice "1.49"^^xsd:float .
+
+:PriceSpec_071da918324842dc9256ae50f77765e6 :hasPrice "1001.0"^^xsd:float .
+
+:PriceSpec_091583bba7ca4bd59e78de7e73966d9c :hasPrice "1.49"^^xsd:float .
+
+:PriceSpec_0e65ea97c2f44e64af408c8f52f33437 :hasPrice "1.37"^^xsd:float .
+
+:PriceSpec_135eebdd16fd47e9b14c5f04de1ed646 :hasPrice "100.0"^^xsd:float .
+
+:PriceSpec_1441770b922246be82bc653b46756a17 :hasPrice "123.0"^^xsd:float .
+
+:PriceSpec_1b8000fa9c9b422c813e36682e235713 :hasPrice "100.0"^^xsd:float .
+
+:PriceSpec_23cedcfccaf3463bad3ad71387e1e9b8 :hasPrice "1001.0"^^xsd:float .
+
+:PriceSpec_24c07a2ce6e3420fb366ad3374b66547 :hasPrice "1221212121.0"^^xsd:float .
+
+:PriceSpec_29a41fdabaf64469807166d3cc6156c5 :hasPrice "0.87"^^xsd:float .
+
+:PriceSpec_3de2e8bf7a5140d1b693d574e33e71d4 :hasPrice "1.7"^^xsd:float .
+
+:PriceSpec_4eb364fa208d4e89b1e6f96a33bbcba6 :hasPrice "100.0"^^xsd:float .
+
+:PriceSpec_5201850823342 :hasPrice "4.04"^^xsd:float .
+
+:PriceSpec_52aaa01281404ad59a04193e8e6da309 :hasPrice "1.0"^^xsd:float .
+
+:PriceSpec_594b16d59ff74dc6b1f70781c4fe85d1 :hasPrice "1.37"^^xsd:float .
+
+:PriceSpec_5b658cba7afc46a48aa224b9c64b2191 :hasPrice "6969.0"^^xsd:float .
+
+:PriceSpec_60e985c2f27641be958af9035add930d :hasPrice "1.232312213132132e+16"^^xsd:float .
+
+:PriceSpec_6577f64c933545ccb98eab80b2018ed4 :hasPrice "1001.0"^^xsd:float .
+
+:PriceSpec_6d9b16e6ed5b4642951dde785390fc45 :hasPrice "9.99"^^xsd:float .
+
+:PriceSpec_6f6cd7f6f7064068860f40c9946e6ed4 :hasPrice "100.0"^^xsd:float .
+
+:PriceSpec_722a4f75a89e43e1a6aa98e9558f647f :hasPrice "1.0"^^xsd:float .
+
+:PriceSpec_7d18937df187408bae722413ba370f73 :hasPrice "1.2"^^xsd:float .
+
+:PriceSpec_8382d47aae6442d5a8361f80aaa94e1d :hasPrice "4.04"^^xsd:float .
+
+:PriceSpec_8fdb21ff367b46fc95ffd7cd5964b0ce :hasPrice "1.37"^^xsd:float .
+
+:PriceSpec_9149a73e2fae42d6a866fd83506971ba :hasPrice "0.43"^^xsd:float .
+
+:PriceSpec_9267a664a1d84ad29d51f07aaf8b82e6 :hasPrice "100.0"^^xsd:float .
+
+:PriceSpec_932b0e8d5b11419ea898bc9d851e461c :hasPrice "1.0"^^xsd:float .
+
+:PriceSpec_95be82e1122f439c93159bac606a374b :hasPrice "90.0"^^xsd:float .
+
+:PriceSpec_9ba0ebdd4ef9467bbb9db37af139f7c6 :hasPrice "1001.0"^^xsd:float .
+
+:PriceSpec_9d6285dae7014fbe8ed2ade6676fed9c :hasPrice "0.95"^^xsd:float .
+
+:PriceSpec_Product001_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.49 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product002_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.20 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product003_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.05 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product005_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.45 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product008_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.70 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product010_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.20 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product012_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 7.60 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product021_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 6.77 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product096_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.30 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product100_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.10 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product118_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 9.52 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product181_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.04 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_a068635524c04117b3549a76cd40f7b0 :hasPrice "1.49"^^xsd:float .
+
+:PriceSpec_acf9ffb4c51a44e8aa643847d593f3e8 :hasPrice "1.05"^^xsd:float .
+
+:PriceSpec_b10b1d94dbb74137b11296ac35afd274 :hasPrice "1.0"^^xsd:float .
+
+:PriceSpec_bda93c2bf6cf4f679870b103525db294 :hasPrice "1.23"^^xsd:float .
+
+:PriceSpec_c29e200babfd4d6ab2abf9790d834ff4 :hasPrice "1.37"^^xsd:float .
+
+:PriceSpec_d32e0a513d0642129a9558c8868d9271 :hasPrice "90.0"^^xsd:float .
+
+:PriceSpec_d5b5cdb57ac245a49689b29befab3a3f :hasPrice "1.33"^^xsd:float .
+
+:PriceSpec_e14f8441c454482ca72dc014cba4e4ea :hasPrice "0.9"^^xsd:float .
+
+:PriceSpec_e2812d589cf54aacb8486385779f9f67 :hasPrice "1.37"^^xsd:float .
+
+:PriceSpec_e5dfa493caf540d4be6cb23a29bd9923 :hasPrice "1.0"^^xsd:float .
+
+:Product001 a :Dairy,
+        schema:Product ;
+    rdfs:label "Γάλα Πλήρες ΔΕΛΤΑ 1L" ;
+    :ExpireDate "2025-10-01"^^xsd:date ;
+    :ProducedBy "Delta" ;
+    :Weight "123.0"^^xsd:float ;
+    :gtin13 "5201234567890" ;
+    :hasPriceSpec :PriceSpec_4a94497e93ba418b88f7d4e67cd695cd ;
+    :hasStockLevel 0 ;
+    :sku "5201234567890" .
+
+:Product002 a :Bakery,
+        schema:Product ;
+    rdfs:label "Ψωμί Ολικής Παπαδοπούλου 500g" ;
+    :ExpireDate "2025-08-20"^^xsd:date ;
+    :ProducedBy "Papadopoulou" ;
+    :Weight "500.0"^^xsd:float ;
+    :gtin13 "5200987654321" ;
+    :hasPriceSpec :PriceSpec_b49183bda88f448192490536b1bc144c ;
+    :hasStockLevel 50 ;
+    :sku "5200987654321" .
+
+:Product003 a :Grocery,
+        schema:Product ;
+    rdfs:label "Μακαρόνια MISKO Νο6 500g" ;
+    :ExpireDate "2026-01-30"^^xsd:date ;
+    :ProducedBy "MISKO" ;
+    :Weight "500.0"^^xsd:float ;
+    :gtin13 "5201029384756" ;
+    :hasPriceSpec :PriceSpec_b4f8b51fa9f540d5a0da4ff710338b50 ;
+    :hasStockLevel 50 ;
+    :sku "5201029384756" .
+
+:Product004 a :Sweets,
+        schema:Product ;
+    rdfs:label "Σοκολάτα ΙΟΝ Αμυγδάλου 100g"@el ;
+    :ContainedIn :Wrapper ;
+    :ExpireDate "2025-12-12"^^xsd:date ;
+    :ProducedBy :ION ;
+    :Weight 100.0 ;
+    :gtin13 "5201100110011" ;
+    :hasPriceSpec :PriceSpec_Product004_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5201100110011" ;
+    schema:productID "5201100110011" .
+
+:Product008 a :Juice,
+        schema:Product ;
+    rdfs:label "Χυμός Πορτοκάλι AMITA Motion 1.5 L" ;
+    :ExpireDate "2025-09-15"^^xsd:date ;
+    :ProducedBy "Amita" ;
+    :Weight "1.5"^^xsd:float ;
+    :gtin13 "5201166778899" ;
+    :hasPriceSpec :PriceSpec_30a9bc64a20647ed81d4ff6197110a18 ;
+    :hasStockLevel 50 ;
+    :sku "5201166778899" .
+
+:Product009 a :Snacks,
+        schema:Product ;
+    rdfs:label "Πατατάκια Lays Αλάτι 150 g"@el ;
+    :ContainedIn :Bag ;
+    :ExpireDate "2025-08-30"^^xsd:date ;
+    :ProducedBy :Lays ;
+    :Weight 150.0 ;
+    :gtin13 "5201177889900" ;
+    :hasPriceSpec :PriceSpec_Product009_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5201177889900" ;
+    schema:productID "5201177889900" .
+
+:Product010 a :Coffee,
+        schema:Product ;
+    rdfs:label "Καφές στιγμιαίος Nescafe Classic 200g" ;
+    :ExpireDate "2026-04-01"^^xsd:date ;
+    :ProducedBy "Nescafe" ;
+    :Weight "200.0"^^xsd:float ;
+    :gtin13 "5201188990011" ;
+    :hasPriceSpec :PriceSpec_fdd52a5ffb8e4df58a9e3bc3d79c6bb5 ;
+    :hasStockLevel 50 ;
+    :sku "5201188990011" .
+
+:Product011 a :Coffee,
+        :Sweets,
+        schema:Product ;
+    rdfs:label "ΛΟΥΜΙΔΗΣ ΠΑΠΑΓΑΛΟΣ Έκαστος καφές Ελληνικός 96g"@el,
+        "Σοκολάτα ΙΟΝ Οικογενειακή 686 g"@el ;
+    :ContainedIn :Wrapper ;
+    :ExpireDate "2026-04-25"^^xsd:date ;
+    :ProducedBy :ION,
+        :Loumidis ;
+    :Weight 686.0 ;
+    :gtin13 "5209047009130" ;
+    :hasPriceSpec :PriceSpec_Product011_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5209047009130" ;
+    schema:productID "5209047009130" .
+
+:Product012 a :Breakfast,
+        schema:Product ;
+    rdfs:label "Δημητριακά Nestlé Cheerios 625 g" ;
+    :ExpireDate "2027-03-11"^^xsd:date ;
+    :ProducedBy "Nestle" ;
+    :Weight "575.0"^^xsd:float ;
+    :gtin13 "5201303174961" ;
+    :hasPriceSpec :PriceSpec_0afd47e2861641209a977ebb62676ebe ;
+    :hasStockLevel 50 ;
+    :sku "5201303174961" .
+
+:Product013 a :Grocery,
+        :Soft_Drinks,
+        schema:Product ;
+    rdfs:label "CocaCola 330 ml"@el,
+        "Προϊόν 13"@el ;
+    :ContainedIn :Bottle ;
+    :ExpireDate "2027-03-18"^^xsd:date ;
+    :ProducedBy :CocaCola,
+        :Pepsi ;
+    :Volume 147.0,
+        330.0 ;
+    :gtin13 "5206427261295" ;
+    :hasPriceSpec :PriceSpec_Product013_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5206427261295" ;
+    schema:productID "5206427261295" .
+
+:Product014 a :Papers,
+        schema:Product ;
+    rdfs:label "Χαρτί Υγείας Papia 3φυλλο 10 ρολά"@el ;
+    :ContainedIn :RollPack ;
+    :ProducedBy :Papia ;
+    :Weight 700.0 ;
+    :gtin13 "5202255443321" ;
+    :hasPriceSpec :PriceSpec_Product014_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202255443321" ;
+    schema:productID "5202255443321" .
+
+:Product015 a :Cleaners,
+        schema:Product ;
+    rdfs:label "Υγρό Πιάτων Fairy Lemon 650 ml"@el ;
+    :ContainedIn :Bottle ;
+    :ProducedBy :Fairy ;
+    :Volume 650.0 ;
+    :gtin13 "5203366554432" ;
+    :hasPriceSpec :PriceSpec_Product015_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203366554432" ;
+    schema:productID "5203366554432" .
+
+:Product016 a :Dairy,
+        schema:Product ;
+    rdfs:label "Γιαούρτι KOLIOS Total 2 % 200 g"@el ;
+    :ContainedIn :Cup ;
+    :ProducedBy :KOLIOS ;
+    :Weight 200.0 ;
+    :gtin13 "5201478529630" ;
+    :hasPriceSpec :PriceSpec_Product016_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5201478529630" ;
+    schema:productID "5201478529630" .
+
+:Product018 a :Snacks,
+        schema:Product ;
+    rdfs:label "Μπισκότα Παπαδοπούλου Digestive 250 g"@el ;
+    :ContainedIn :Box ;
+    :ProducedBy :Papadopoulou ;
+    :Weight 250.0 ;
+    :gtin13 "5201589637412" ;
+    :hasPriceSpec :PriceSpec_Product018_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5201589637412" ;
+    schema:productID "5201589637412" .
+
+:Product019 a :FrozenFood,
+        schema:Product ;
+    rdfs:label "Pizza Dr. Oetker Ristorante Mozzarella 340 g"@el ;
+    :ContainedIn :Box ;
+    :ProducedBy :DrOetker ;
+    :Weight 340.0 ;
+    :gtin13 "5201698745213" ;
+    :hasPriceSpec :PriceSpec_Product019_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5201698745213" ;
+    schema:productID "5201698745213" .
+
+:Product020 a :Bakery,
+        schema:Product ;
+    rdfs:label "Μαργαρίνη Βιτάμ Classic 1,47 kg"@el ;
+    :ContainedIn :Carton ;
+    :ExpireDate "2027-01-01"^^xsd:date ;
+    :ProducedBy :Endless ;
+    :Weight 1471.0 ;
+    :gtin13 "5201385116087" ;
+    :hasPriceSpec :PriceSpec_Product020_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5201385116087" ;
+    schema:productID "5201385116087" .
+
+:Product022 a :Sweets,
+        schema:Product ;
+    rdfs:label "Σιρόπι Σοκολάτας ΙΟΝ Pump 1,4 L"@el ;
+    :ContainedIn :PumpBottle ;
+    :ExpireDate "2026-06-22"^^xsd:date ;
+    :ProducedBy :ION ;
+    :Volume 1423.0 ;
+    :gtin13 "5209562876689" ;
+    :hasPriceSpec :PriceSpec_Product022_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5209562876689" ;
+    schema:productID "5209562876689" .
+
+:Product023 a :Alcohol,
+        schema:Product ;
+    rdfs:label "Κρασί Ristorante Rosso 0,5 L"@el ;
+    :ContainedIn :Bottle ;
+    :ExpireDate "2027-01-20"^^xsd:date ;
+    :ProducedBy :Ristorante ;
+    :Volume 520.0 ;
+    :gtin13 "5205400875890" ;
+    :hasPriceSpec :PriceSpec_Product023_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5205400875890" ;
+    schema:productID "5205400875890" .
+
+:Product024 a :Coffee,
+        schema:Product ;
+    rdfs:label "Καφές NOYNOY Cappuccino 796 g"@el ;
+    :ContainedIn :Can ;
+    :ExpireDate "2027-04-09"^^xsd:date ;
+    :ProducedBy :NOUNOU ;
+    :Weight 796.0 ;
+    :gtin13 "5202941363907" ;
+    :hasPriceSpec :PriceSpec_Product024_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202941363907" ;
+    schema:productID "5202941363907" .
+
+:Product025 a :Grocery,
+        schema:Product ;
+    rdfs:label "Ρύζι Agrino Καρολίνα 596 g"@el ;
+    :ContainedIn :Bag ;
+    :ExpireDate "2025-09-16"^^xsd:date ;
+    :ProducedBy :Agrino ;
+    :Weight 596.0 ;
+    :gtin13 "5203562117136" ;
+    :hasPriceSpec :PriceSpec_Product025_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203562117136" ;
+    schema:productID "5203562117136" .
+
+:Product026 a :Bakery,
+        schema:Product ;
+    rdfs:label "Ψωμί Σταρένιο Παπαδοπούλου 1 473 g"@el ;
+    :ContainedIn :Bag ;
+    :ExpireDate "2026-12-02"^^xsd:date ;
+    :ProducedBy :Papadopoulou ;
+    :Weight 1473.0 ;
+    :gtin13 "5207575638896" ;
+    :hasPriceSpec :PriceSpec_Product026_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207575638896" ;
+    schema:productID "5207575638896" .
+
+:Product027 a :Cleaners,
+        :Dairy,
+        schema:Product ;
+    rdfs:label "Klinex Απολυμαντικό Υγρό 1 369 ml"@el,
+        "ΦΑΓΕ Στραγγιστό Γιαούρτι 2 % 170 g"@el ;
+    :ContainedIn :Bottle,
+        :Tub ;
+    :ExpireDate "2026-08-15"^^xsd:date ;
+    :ProducedBy :FAGE,
+        :Klinex ;
+    :Volume 1369.0 ;
+    :Weight 1369.0 ;
+    :gtin13 "5208525459940" ;
+    :hasPriceSpec :PriceSpec_Product027_2025_05 ;
+    :hasStockLevel 50,
+        100 ;
+    :sku "5208525459940" ;
+    schema:productID "5208525459940" .
+
+:Product028 a :Coffee,
+        schema:Product ;
+    rdfs:label "Jacobs Εκλεκτός Καφές Φίλτορυ 217 g"@el ;
+    :ContainedIn :Bag ;
+    :ExpireDate "2027-02-23"^^xsd:date ;
+    :ProducedBy :Jacobs ;
+    :Weight 1217.0 ;
+    :gtin13 "5203627723094" ;
+    :hasPriceSpec :PriceSpec_Product028_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203627723094" ;
+    schema:productID "5203627723094" .
+
+:Product029 a :HairProduct,
+        schema:Product ;
+    rdfs:label "Σαμπουάν Dove"@el ;
+    :ContainedIn :Tub ;
+    :ExpireDate "2026-03-10"^^xsd:date ;
+    :ProducedBy :Dove ;
+    :Weight 707.0 ;
+    :gtin13 "5207140319463" ;
+    :hasPriceSpec :PriceSpec_Product029_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207140319463" ;
+    schema:productID "5207140319463" .
+
+:Product030 a :FrozenFood,
+        schema:Product ;
+    rdfs:label "Pizza Ristorante Pepperoni 222 g"@el ;
+    :ContainedIn :Wrapper ;
+    :ExpireDate "2026-07-25"^^xsd:date ;
+    :ProducedBy :DrOetker ;
+    :Weight 222.0 ;
+    :gtin13 "5204627888533" ;
+    :hasPriceSpec :PriceSpec_Product030_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204627888533" ;
+    schema:productID "5204627888533" .
+
+:Product031 a :Grocery,
+        schema:Product ;
+    rdfs:label "Μακαρόνια MISKO Ολικής Νο 6 500 g"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2026-01-18"^^xsd:date ;
+    :ProducedBy :MISKO ;
+    :Weight 500.0 ;
+    :gtin13 "5201744004001" ;
+    :hasPriceSpec :PriceSpec_Product031_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5201744004001" ;
+    schema:productID "5201744004001" .
+
+:Product032 a :Tea,
+        schema:Product ;
+    rdfs:label "Lipton Ice Tea Ροδάκινο 500 ml"@el ;
+    :ContainedIn :Bottle ;
+    :ExpireDate "2025-11-12"^^xsd:date ;
+    :ProducedBy :Lipton ;
+    :Volume 500.0 ;
+    :gtin13 "5201877005002" ;
+    :hasPriceSpec :PriceSpec_Product032_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5201877005002" ;
+    schema:productID "5201877005002" .
+
+:Product033 a :Snacks,
+        schema:Product ;
+    rdfs:label "Kellogg's Nutri-Grain Φράουλα 37 g"@el ;
+    :ContainedIn :Wrapper ;
+    :ExpireDate "2026-03-08"^^xsd:date ;
+    :ProducedBy :Kelloggs ;
+    :Weight 37.0 ;
+    :gtin13 "5201988006003" ;
+    :hasPriceSpec :PriceSpec_Product033_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5201988006003" ;
+    schema:productID "5201988006003" .
+
+:Product034 a :Cleaners,
+        schema:Product ;
+    rdfs:label "Ariel Pods Alpine 30 τεμ."@el ;
+    :ContainedIn :Tub ;
+    :ExpireDate "2027-05-30"^^xsd:date ;
+    :ProducedBy :Ariel ;
+    :gtin13 "5202199007004" ;
+    :hasPriceSpec :PriceSpec_Product034_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202199007004" ;
+    schema:productID "5202199007004" .
+
+:Product035 a :HairProducts,
+        schema:Product ;
+    rdfs:label "Head & Shoulders Classic Clean 400 ml"@el ;
+    :ContainedIn :Bottle ;
+    :ExpireDate "2026-10-10"^^xsd:date ;
+    :ProducedBy :HeadShoulders ;
+    :Volume 400.0 ;
+    :gtin13 "5202310008005" ;
+    :hasPriceSpec :PriceSpec_Product035_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202310008005" ;
+    schema:productID "5202310008005" .
+
+:Product036 a :Grocery,
+        schema:Product ;
+    rdfs:label "Ελαιόλαδο Minerva Εξαιρετικό Παρθένο 1 L"@el ;
+    :ContainedIn :BottleGlass ;
+    :ExpireDate "2026-12-31"^^xsd:date ;
+    :ProducedBy :Minerva ;
+    :Volume 1000.0 ;
+    :gtin13 "5202416009006" ;
+    :hasPriceSpec :PriceSpec_Product036_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202416009006" ;
+    schema:productID "5202416009006" .
+
+:Product037 a :Bakery,
+        schema:Product ;
+    rdfs:label "Ζάχαρη Άχνη ΑΒ 1 kg"@el ;
+    :ContainedIn :Packet ;
+    :ExpireDate "2027-06-15"^^xsd:date ;
+    :ProducedBy :AlphaBeta ;
+    :Weight 1000.0 ;
+    :gtin13 "5202527010107" ;
+    :hasPriceSpec :PriceSpec_Product037_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202527010107" ;
+    schema:productID "5202527010107" .
+
+:Product038 a :Cleaners,
+        schema:Product ;
+    rdfs:label "Duck WC Power Fresh Marine 750 ml"@el ;
+    :ContainedIn :Bottle ;
+    :ExpireDate "2026-04-20"^^xsd:date ;
+    :ProducedBy :Duck ;
+    :Volume 750.0 ;
+    :gtin13 "5202638011208" ;
+    :hasPriceSpec :PriceSpec_Product038_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202638011208" ;
+    schema:productID "5202638011208" .
+
+:Product039 a :FrozenFood,
+        schema:Product ;
+    rdfs:label "Barba Στάθης Λαχανικά Mix 4 Εποχές 600 g"@el ;
+    :ContainedIn :Bag ;
+    :ExpireDate "2027-02-01"^^xsd:date ;
+    :ProducedBy :BarbaStathis ;
+    :Weight 600.0 ;
+    :gtin13 "5202749012309" ;
+    :hasPriceSpec :PriceSpec_Product039_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202749012309" ;
+    schema:productID "5202749012309" .
+
+:Product040 a :Sofr_Drinks,
+        schema:Product ;
+    rdfs:label "Red Bull Energy Drink 250 ml"@el ;
+    :ContainedIn :Can ;
+    :ExpireDate "2026-09-09"^^xsd:date ;
+    :ProducedBy :RedBull ;
+    :Volume 250.0 ;
+    :gtin13 "5202850013400" ;
+    :hasPriceSpec :PriceSpec_Product040_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202850013400" ;
+    schema:productID "5202850013400" .
+
+:Product041 a :BabyCare,
+        schema:Product ;
+    rdfs:label "Pampers Premium Care No 4 (52 τμχ)"@el ;
+    :ContainedIn :Pack ;
+    :ExpireDate "2027-12-31"^^xsd:date ;
+    :ProducedBy :Pampers ;
+    :gtin13 "5202961009007" ;
+    :hasPriceSpec :PriceSpec_Product041_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5202961009007" ;
+    schema:productID "5202961009007" .
+
+:Product042 a :Grocery,
+        schema:Product ;
+    rdfs:label "Pummaro Σάλτσα Τομάτας Classic 500 g"@el ;
+    :ContainedIn :Carton ;
+    :ExpireDate "2026-05-15"^^xsd:date ;
+    :ProducedBy :Pummaro ;
+    :Weight 500.0 ;
+    :gtin13 "5203072010108" ;
+    :hasPriceSpec :PriceSpec_Product042_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203072010108" ;
+    schema:productID "5203072010108" .
+
+:Product043 a :Tea,
+        schema:Product ;
+    rdfs:label "Lipton Yellow Label 25 φακελάκια 50 g"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2027-03-30"^^xsd:date ;
+    :ProducedBy :Lipton ;
+    :Weight 50.0 ;
+    :gtin13 "5203183011209" ;
+    :hasPriceSpec :PriceSpec_Product043_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203183011209" ;
+    schema:productID "5203183011209" .
+
+:Product044 a :Dairy,
+        schema:Product ;
+    rdfs:label "Τυρί Gouda NOYNOY Φέτες 150 g"@el ;
+    :ContainedIn :VacuumPack ;
+    :ExpireDate "2025-11-10"^^xsd:date ;
+    :ProducedBy :NOUNOU ;
+    :Weight 150.0 ;
+    :gtin13 "5203294012310" ;
+    :hasPriceSpec :PriceSpec_Product044_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203294012310" ;
+    schema:productID "5203294012310" .
+
+:Product045 a :Water,
+        schema:Product ;
+    rdfs:label "Perrier Sparkling Water 750 ml"@el ;
+    :ContainedIn :BottleGlass ;
+    :ExpireDate "2026-08-08"^^xsd:date ;
+    :ProducedBy :Perrier ;
+    :Volume 750.0 ;
+    :gtin13 "5203405013411" ;
+    :hasPriceSpec :PriceSpec_Product045_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203405013411" ;
+    schema:productID "5203405013411" .
+
+:Product046 a :Cleaner,
+        schema:Product ;
+    rdfs:label "Finish Quantum Ταμπλέτες 40 τμχ"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2027-11-30"^^xsd:date ;
+    :ProducedBy :Finish ;
+    :gtin13 "5203516014502" ;
+    :hasPriceSpec :PriceSpec_Product046_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203516014502" ;
+    schema:productID "5203516014502" .
+
+:Product047 a :Breakfast,
+        schema:Product ;
+    rdfs:label "Νesquik Δημητριακά Σοκολάτας 375 g"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2026-04-10"^^xsd:date ;
+    :ProducedBy :Nestle ;
+    :Weight 375.0 ;
+    :gtin13 "5203627014703" ;
+    :hasPriceSpec :PriceSpec_Product047_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203627014703" ;
+    schema:productID "5203627014703" .
+
+:Product048 a :SeaFood,
+        schema:Product ;
+    rdfs:label "Rio Mare Τόνος σε Ελαιόλαδο 160 g"@el ;
+    :ContainedIn :Can ;
+    :ExpireDate "2027-09-22"^^xsd:date ;
+    :ProducedBy :RioMare ;
+    :Weight 160.0 ;
+    :gtin13 "5203738015804" ;
+    :hasPriceSpec :PriceSpec_Product048_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203738015804" ;
+    schema:productID "5203738015804" .
+
+:Product049 a :Soft_Drinks,
+        schema:Product ;
+    rdfs:label "Coca-Cola Zero 1.5 L"@el ;
+    :ContainedIn :BottlePET ;
+    :ExpireDate "2026-02-18"^^xsd:date ;
+    :ProducedBy :CocaCola ;
+    :Volume 1500.0 ;
+    :gtin13 "5203849016905" ;
+    :hasPriceSpec :PriceSpec_Product049_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203849016905" ;
+    schema:productID "5203849016905" .
+
+:Product050 a :Paper,
+        schema:Product ;
+    rdfs:label "Χαρτομάντηλα Kleenex Classic 100 τμχ"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2028-06-30"^^xsd:date ;
+    :ProducedBy :Kleenex ;
+    :gtin13 "5203950018006" ;
+    :hasPriceSpec :PriceSpec_Product050_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5203950018006" ;
+    schema:productID "5203950018006" .
+
+:Product051 a :Bakery,
+        schema:Product ;
+    rdfs:label "Αλεύρι ΓΙΩΤΗΣ για Όλες τις Χρήσεις 1 kg"@el ;
+    :ContainedIn :PaperBag ;
+    :ExpireDate "2026-12-20"^^xsd:date ;
+    :ProducedBy :Jotis ;
+    :Weight 1000.0 ;
+    :gtin13 "5204076009108" ;
+    :hasPriceSpec :PriceSpec_Product051_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204076009108" ;
+    schema:productID "5204076009108" .
+
+:Product052 a :PetFood,
+        schema:Product ;
+    rdfs:label "Pedigree Dry Dog Food Beef 3 kg"@el ;
+    :ContainedIn :BagLarge ;
+    :ExpireDate "2026-07-31"^^xsd:date ;
+    :ProducedBy :Pedigree ;
+    :Weight 3000.0 ;
+    :gtin13 "5204187010209" ;
+    :hasPriceSpec :PriceSpec_Product052_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204187010209" ;
+    schema:productID "5204187010209" .
+
+:Product053 a :Breakfast,
+        schema:Product ;
+    rdfs:label "Merenda Πραλίνα Φουντουκιού 360 g"@el ;
+    :ContainedIn :Jar ;
+    :ExpireDate "2026-03-05"^^xsd:date ;
+    :ProducedBy :Merenda ;
+    :Weight 360.0 ;
+    :gtin13 "5204298011310" ;
+    :hasPriceSpec :PriceSpec_Product053_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204298011310" ;
+    schema:productID "5204298011310" .
+
+:Product054 a :Dairy,
+        schema:Product ;
+    rdfs:label "Actimel Φράουλα 8×100 ml"@el ;
+    :ContainedIn :Pack ;
+    :ExpireDate "2025-10-12"^^xsd:date ;
+    :ProducedBy :Danone ;
+    :Volume 800.0 ;
+    :gtin13 "5204409012411" ;
+    :hasPriceSpec :PriceSpec_Product054_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204409012411" ;
+    schema:productID "5204409012411" .
+
+:Product055 a :BodyProduacts,
+        schema:Product ;
+    rdfs:label "Dettol Αντιβακτηριδιακό Liquid Hand Wash 250 ml"@el ;
+    :ContainedIn :PumpBottle ;
+    :ExpireDate "2026-11-18"^^xsd:date ;
+    :ProducedBy :Dettol ;
+    :Volume 250.0 ;
+    :gtin13 "5204520013512" ;
+    :hasPriceSpec :PriceSpec_Product055_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204520013512" ;
+    schema:productID "5204520013512" .
+
+:Product056 a :SeaFood,
+        schema:Product ;
+    rdfs:label "Captain Iglo Fish Sticks 450 g"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2027-01-14"^^xsd:date ;
+    :ProducedBy :CaptainIglo ;
+    :Weight 450.0 ;
+    :gtin13 "5204631015613" ;
+    :hasPriceSpec :PriceSpec_Product056_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204631015613" ;
+    schema:productID "5204631015613" .
+
+:Product057 a :HairProduct,
+        schema:Product ;
+    rdfs:label "Pantene Pro-V Repair & Protect Conditioner 360 ml"@el ;
+    :ContainedIn :Bottle ;
+    :ExpireDate "2026-09-09"^^xsd:date ;
+    :ProducedBy :Pantene ;
+    :Volume 360.0 ;
+    :gtin13 "5204742016714" ;
+    :hasPriceSpec :PriceSpec_Product057_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204742016714" ;
+    schema:productID "5204742016714" .
+
+:Product058 a :Breakfast,
+        schema:Product ;
+    rdfs:label "Μέλι Αττική Θυμαρίσιο 450 g"@el ;
+    :ContainedIn :Jar ;
+    :ExpireDate "2027-05-05"^^xsd:date ;
+    :ProducedBy :Attiki ;
+    :Weight 450.0 ;
+    :gtin13 "5204853017815" ;
+    :hasPriceSpec :PriceSpec_Product058_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204853017815" ;
+    schema:productID "5204853017815" .
+
+:Product059 a :Snacks,
+        schema:Product ;
+    rdfs:label "Pringles Original 165 g"@el ;
+    :ContainedIn :Can ;
+    :ExpireDate "2026-11-01"^^xsd:date ;
+    :ProducedBy :Pringles ;
+    :Weight 165.0 ;
+    :gtin13 "5204964018916" ;
+    :hasPriceSpec :PriceSpec_Product059_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5204964018916" ;
+    schema:productID "5204964018916" .
+
+:Product060 a :Paper,
+        schema:Product ;
+    rdfs:label "Χαρτί Κουζίνας Zewa Wisch&Weg 2 ρολά"@el ;
+    :ContainedIn :RollPack ;
+    :ExpireDate "2028-12-31"^^xsd:date ;
+    :ProducedBy :Zewa ;
+    :gtin13 "5205075020017" ;
+    :hasPriceSpec :PriceSpec_Product060_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5205075020017" ;
+    schema:productID "5205075020017" .
+
+:Product061 a :Cleaner,
+        schema:Product ;
+    rdfs:label "Lenor Gold Orchid Μαλακτικό 1 L"@el ;
+    :ContainedIn :BottlePET ;
+    :ExpireDate "2027-04-30"^^xsd:date ;
+    :ProducedBy :Lenor ;
+    :Volume 1000.0 ;
+    :gtin13 "5205186021118" ;
+    :hasPriceSpec :PriceSpec_Product061_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5205186021118" ;
+    schema:productID "5205186021118" .
+
+:Product062 a :Grocery,
+        schema:Product ;
+    rdfs:label "Barilla Penne Rigate 500 g"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2026-02-14"^^xsd:date ;
+    :ProducedBy :Barilla ;
+    :Weight 500.0 ;
+    :gtin13 "5205297022219" ;
+    :hasPriceSpec :PriceSpec_Product062_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5205297022219" ;
+    schema:productID "5205297022219" .
+
+:Product063 a :Dairy,
+        schema:Product ;
+    rdfs:label "Galbani Mozzarella 125 g"@el ;
+    :ContainedIn :VacuumPack ;
+    :ExpireDate "2025-11-22"^^xsd:date ;
+    :ProducedBy :Galbani ;
+    :Weight 125.0 ;
+    :gtin13 "5205408023310" ;
+    :hasPriceSpec :PriceSpec_Product063_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5205408023310" ;
+    schema:productID "5205408023310" .
+
+:Product064 a :Sweets,
+        schema:Product ;
+    rdfs:label "Magnum Classic Multipack 4×110 ml"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2026-06-15"^^xsd:date ;
+    :ProducedBy :Magnum ;
+    :Volume 440.0 ;
+    :gtin13 "5205519034411" ;
+    :hasPriceSpec :PriceSpec_Product064_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5205519034411" ;
+    schema:productID "5205519034411" .
+
+:Product065 a :Cleaner,
+        schema:Product ;
+    rdfs:label "Scotch-Brite Σφουγγαράκια Heavy Duty 3 τμχ"@el ;
+    :ContainedIn :Pack ;
+    :ExpireDate "2028-12-31"^^xsd:date ;
+    :ProducedBy :ScotchBrite ;
+    :gtin13 "5205630045512" ;
+    :hasPriceSpec :PriceSpec_Product065_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5205630045512" ;
+    schema:productID "5205630045512" .
+
+:Product066 a :Snacks,
+        schema:Product ;
+    rdfs:label "KIND Peanut Butter Dark Chocolate 50 g"@el ;
+    :ContainedIn :Wrapper ;
+    :ExpireDate "2026-02-10"^^xsd:date ;
+    :ProducedBy :Kind ;
+    :Weight 50.0 ;
+    :gtin13 "5205741056613" ;
+    :hasPriceSpec :PriceSpec_Product066_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5205741056613" ;
+    schema:productID "5205741056613" .
+
+:Product067 a :Cleaner,
+        schema:Product ;
+    rdfs:label "Finish Rinse Aid Shine & Dry 400 ml"@el ;
+    :ContainedIn :BottlePlastic ;
+    :ExpireDate "2027-03-31"^^xsd:date ;
+    :ProducedBy :Finish ;
+    :Volume 400.0 ;
+    :gtin13 "5205852067714" ;
+    :hasPriceSpec :PriceSpec_Product067_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5205852067714" ;
+    schema:productID "5205852067714" .
+
+:Product069 a :Soft_Drinks,
+        schema:Product ;
+    rdfs:label "San Pellegrino Limonata 330 ml"@el ;
+    :ContainedIn :Can ;
+    :ExpireDate "2026-05-12"^^xsd:date ;
+    :ProducedBy :SanPellegrino ;
+    :Volume 330.0 ;
+    :gtin13 "5206074089916" ;
+    :hasPriceSpec :PriceSpec_Product069_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5206074089916" ;
+    schema:productID "5206074089916" .
+
+:Product070 a :Paper,
+        schema:Product ;
+    rdfs:label "Χαρτί Υγείας Regina XXL 8 ρολά"@el ;
+    :ContainedIn :RollPack ;
+    :ExpireDate "2028-12-31"^^xsd:date ;
+    :ProducedBy :Regina ;
+    :gtin13 "5206185101017" ;
+    :hasPriceSpec :PriceSpec_Product070_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5206185101017" ;
+    schema:productID "5206185101017" .
+
+:Product071 a :Dairy,
+        schema:Product ;
+    rdfs:label "Alpro Almond Original 1 L"@el ;
+    :ContainedIn :TetraPak ;
+    :ExpireDate "2026-02-28"^^xsd:date ;
+    :ProducedBy :Alpro ;
+    :Volume 1000.0 ;
+    :gtin13 "5206296112118" ;
+    :hasPriceSpec :PriceSpec_Product071_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5206296112118" ;
+    schema:productID "5206296112118" .
+
+:Product072 a :Grocery,
+        schema:Product ;
+    rdfs:label "Bertolli Extra Virgin Olive Oil Spray 200 ml"@el ;
+    :ContainedIn :SprayCan ;
+    :ExpireDate "2027-05-15"^^xsd:date ;
+    :ProducedBy :Bertolli ;
+    :Volume 200.0 ;
+    :gtin13 "5206407123219" ;
+    :hasPriceSpec :PriceSpec_Product072_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5206407123219" ;
+    schema:productID "5206407123219" .
+
+:Product073 a :OralProducts,
+        schema:Product ;
+    rdfs:label "Oral-B Indicator Medium 1 τμχ"@el ;
+    :ContainedIn :BlisterPack ;
+    :ExpireDate "2028-12-31"^^xsd:date ;
+    :ProducedBy :OralB ;
+    :gtin13 "5206518134320" ;
+    :hasPriceSpec :PriceSpec_Product073_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5206518134320" ;
+    schema:productID "5206518134320" .
+
+:Product074 a :Snacks,
+        schema:Product ;
+    rdfs:label "Quaker Rice Cakes Salted 130 g"@el ;
+    :ContainedIn :Bag ;
+    :ExpireDate "2026-09-09"^^xsd:date ;
+    :ProducedBy :Quaker ;
+    :Weight 130.0 ;
+    :gtin13 "5206629145421" ;
+    :hasPriceSpec :PriceSpec_Product074_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5206629145421" ;
+    schema:productID "5206629145421" .
+
+:Product076 a :Cleaner,
+        schema:Product ;
+    rdfs:label "Domestos Ultra White 1 L"@el ;
+    :ContainedIn :BottlePET ;
+    :ExpireDate "2027-11-30"^^xsd:date ;
+    :ProducedBy :Domestos ;
+    :Volume 1000.0 ;
+    :gtin13 "5206851167618" ;
+    :hasPriceSpec :PriceSpec_Product076_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5206851167618" ;
+    schema:productID "5206851167618" .
+
+:Product077 a :Breakfast,
+        schema:Product ;
+    rdfs:label "Weetabix Original 430 g"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2026-03-10"^^xsd:date ;
+    :ProducedBy :Weetabix ;
+    :Weight 430.0 ;
+    :gtin13 "5206962178719" ;
+    :hasPriceSpec :PriceSpec_Product077_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5206962178719" ;
+    schema:productID "5206962178719" .
+
+:Product078 a :FrozenFood,
+        schema:Product ;
+    rdfs:label "Chicago Town Deep Dish Pepperoni 2×190 g"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2027-02-05"^^xsd:date ;
+    :ProducedBy :ChicagoTown ;
+    :Weight 380.0 ;
+    :gtin13 "5207073189820" ;
+    :hasPriceSpec :PriceSpec_Product078_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207073189820" ;
+    schema:productID "5207073189820" .
+
+:Product079 a :Snacks,
+        schema:Product ;
+    rdfs:label "KitKat 4-Finger 41.5 g"@el ;
+    :ContainedIn :Wrapper ;
+    :ExpireDate "2026-06-12"^^xsd:date ;
+    :ProducedBy :Nestle ;
+    :Weight 41.5 ;
+    :gtin13 "5207184200921" ;
+    :hasPriceSpec :PriceSpec_Product079_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207184200921" ;
+    schema:productID "5207184200921" .
+
+:Product080 a :PetFood,
+        schema:Product ;
+    rdfs:label "Cesar Classic Terrine Βοδινό 150 g"@el ;
+    :ContainedIn :Tray ;
+    :ExpireDate "2026-08-18"^^xsd:date ;
+    :ProducedBy :Cesar ;
+    :Weight 150.0 ;
+    :gtin13 "5207295212022" ;
+    :hasPriceSpec :PriceSpec_Product080_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207295212022" ;
+    schema:productID "5207295212022" .
+
+:Product081 a :OralProducts,
+        schema:Product ;
+    rdfs:label "Listerine Cool Mint 500 ml"@el ;
+    :ContainedIn :BottlePlastic ;
+    :ExpireDate "2027-10-30"^^xsd:date ;
+    :ProducedBy :Listerine ;
+    :Volume 500.0 ;
+    :gtin13 "5207406223123" ;
+    :hasPriceSpec :PriceSpec_Product081_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207406223123" ;
+    schema:productID "5207406223123" .
+
+:Product082 a :Snacks,
+        schema:Product ;
+    rdfs:label "Nature Valley Oats & Honey 42 g"@el ;
+    :ContainedIn :Wrapper ;
+    :ExpireDate "2026-04-12"^^xsd:date ;
+    :ProducedBy :NatureValley ;
+    :Weight 42.0 ;
+    :gtin13 "5207517234224" ;
+    :hasPriceSpec :PriceSpec_Product082_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207517234224" ;
+    schema:productID "5207517234224" .
+
+:Product083 a :Cleaner,
+        schema:Product ;
+    rdfs:label "Persil Universal Powder 45 μεζούρες"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2027-06-01"^^xsd:date ;
+    :ProducedBy :Persil ;
+    :Weight 2925.0 ;
+    :gtin13 "5207628245325" ;
+    :hasPriceSpec :PriceSpec_Product083_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207628245325" ;
+    schema:productID "5207628245325" .
+
+:Product084 a :Alcohol,
+        schema:Product ;
+    rdfs:label "Heineken Lager Beer 500 ml"@el ;
+    :ContainedIn :BottleGlass ;
+    :ExpireDate "2026-12-15"^^xsd:date ;
+    :ProducedBy :Heineken ;
+    :Volume 500.0 ;
+    :gtin13 "5207739256426" ;
+    :hasPriceSpec :PriceSpec_Product084_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207739256426" ;
+    schema:productID "5207739256426" .
+
+:Product085 a :Grocery,
+        schema:Product ;
+    rdfs:label "Hellmann's Caesar Dressing 250 ml"@el ;
+    :ContainedIn :Bottle ;
+    :ExpireDate "2026-07-20"^^xsd:date ;
+    :ProducedBy :Hellmanns ;
+    :Volume 250.0 ;
+    :gtin13 "5207850267527" ;
+    :hasPriceSpec :PriceSpec_Product085_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207850267527" ;
+    schema:productID "5207850267527" .
+
+:Product086 a :Drinks,
+        schema:Product ;
+    rdfs:label "Oatly Barista Oat Drink 1 L"@el ;
+    :ContainedIn :TetraPak ;
+    :ExpireDate "2026-03-20"^^xsd:date ;
+    :ProducedBy :Oatly ;
+    :Volume 1000.0 ;
+    :gtin13 "5207965278628" ;
+    :hasPriceSpec :PriceSpec_Product086_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5207965278628" ;
+    schema:productID "5207965278628" .
+
+:Product087 a :Grocery,
+        schema:Product ;
+    rdfs:label "Heinz Tomato Ketchup 700 g"@el ;
+    :ContainedIn :BottlePlastic ;
+    :ExpireDate "2027-09-12"^^xsd:date ;
+    :ProducedBy :Heinz ;
+    :Weight 700.0 ;
+    :gtin13 "5208076289729" ;
+    :hasPriceSpec :PriceSpec_Product087_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5208076289729" ;
+    schema:productID "5208076289729" .
+
+:Product088 a :Cleaner,
+        schema:Product ;
+    rdfs:label "Calgon Washing Machine Cleaner 3 τμχ"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2027-11-30"^^xsd:date ;
+    :ProducedBy :Calgon ;
+    :gtin13 "5208187300830" ;
+    :hasPriceSpec :PriceSpec_Product088_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5208187300830" ;
+    schema:productID "5208187300830" .
+
+:Product089 a :FrozenFood,
+        schema:Product ;
+    rdfs:label "Birds Eye Garden Peas 900 g"@el ;
+    :ContainedIn :Bag ;
+    :ExpireDate "2027-04-10"^^xsd:date ;
+    :ProducedBy :BirdsEye ;
+    :Weight 900.0 ;
+    :gtin13 "5208298311931" ;
+    :hasPriceSpec :PriceSpec_Product089_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5208298311931" ;
+    schema:productID "5208298311931" .
+
+:Product090 a :HairProducts,
+        schema:Product ;
+    rdfs:label "Garnier Fructis Grow Strong 400 ml"@el ;
+    :ContainedIn :Bottle ;
+    :ExpireDate "2026-08-08"^^xsd:date ;
+    :ProducedBy :Garnier ;
+    :Volume 400.0 ;
+    :gtin13 "5208409323032" ;
+    :hasPriceSpec :PriceSpec_Product090_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5208409323032" ;
+    schema:productID "5208409323032" .
+
+:Product091 a :OralProducts,
+        schema:Product ;
+    rdfs:label "Colgate Total Whitening 75 ml"@el ;
+    :ContainedIn :Tube ;
+    :ExpireDate "2026-12-31"^^xsd:date ;
+    :ProducedBy :Colgate ;
+    :Volume 75.0 ;
+    :gtin13 "5208520334133" ;
+    :hasPriceSpec :PriceSpec_Product091_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5208520334133" ;
+    schema:productID "5208520334133" .
+
+:Product092 a :Grocery,
+        schema:Product ;
+    rdfs:label "Selina Ιωδιούχο Αλάτι 1 kg"@el ;
+    :ContainedIn :Packet ;
+    :ExpireDate "2028-01-01"^^xsd:date ;
+    :ProducedBy :SelinaSalt ;
+    :Weight 1000.0 ;
+    :gtin13 "5208631345234" ;
+    :hasPriceSpec :PriceSpec_Product092_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5208631345234" ;
+    schema:productID "5208631345234" .
+
+:Product094 a :Coffee,
+        schema:Product ;
+    rdfs:label "Nespresso Ristretto 10 κάψουλες (55 g)"@el ;
+    :ContainedIn :Box ;
+    :ExpireDate "2027-05-30"^^xsd:date ;
+    :ProducedBy :Nespresso ;
+    :Weight 55.0 ;
+    :gtin13 "5208853367436" ;
+    :hasPriceSpec :PriceSpec_Product094_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5208853367436" ;
+    schema:productID "5208853367436" .
+
+:Product095 a :Sweets,
+        schema:Product ;
+    rdfs:label "Ben & Jerry's Chocolate Fudge Brownie 465 ml"@el ;
+    :ContainedIn :Tub ;
+    :ExpireDate "2026-10-15"^^xsd:date ;
+    :ProducedBy :BenJerrys ;
+    :Volume 465.0 ;
+    :gtin13 "5208964378537" ;
+    :hasPriceSpec :PriceSpec_Product095_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5208964378537" ;
+    schema:productID "5208964378537" .
+
+:Product097 a :Snacks,
+        schema:Product ;
+    rdfs:label "Oreo Original 154 g"@el ;
+    :ContainedIn :Wrapper ;
+    :ExpireDate "2026-09-25"^^xsd:date ;
+    :ProducedBy :Oreo ;
+    :Weight 154.0 ;
+    :gtin13 "5209186400739" ;
+    :hasPriceSpec :PriceSpec_Product097_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5209186400739" ;
+    schema:productID "5209186400739" .
+
+:Product098 a :Grocery,
+        schema:Product ;
+    rdfs:label "Ξίδι Λευκό Zafiropoulos 500 ml"@el ;
+    :ContainedIn :BottleGlass ;
+    :ExpireDate "2027-07-10"^^xsd:date ;
+    :ProducedBy :Zafiropoulos ;
+    :Volume 500.0 ;
+    :gtin13 "5209297411840" ;
+    :hasPriceSpec :PriceSpec_Product098_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5209297411840" ;
+    schema:productID "5209297411840" .
+
+:Product099 a :Dairy,
+        schema:Product ;
+    rdfs:label "Milko Σοκολατούχο Γάλα 500 ml"@el ;
+    :ContainedIn :TetraPak ;
+    :ExpireDate "2026-04-04"^^xsd:date ;
+    :ProducedBy :Milko ;
+    :Volume 500.0 ;
+    :gtin13 "5209408422941" ;
+    :hasPriceSpec :PriceSpec_Product099_2025_05 ;
+    :hasStockLevel 50 ;
+    :sku "5209408422941" ;
+    schema:productID "5209408422941" .
+
+:Sack a :ContainerType ;
+    rdfs:label "Sack"@en .
+
+:Zagori a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Zagori"@en .
+
+:Agrino a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Agrino"@en .
+
+:AlphaBeta a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "ΑΒ Βασιλόπουλος"@el .
+
+:Alpro a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Alpro"@en .
+
+:Ariel a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Ariel"@en .
+
+:Attiki a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Αττική"@el .
+
+:BagLarge a :ContainerType ;
+    rdfs:label "Large Bag"@en .
+
+:BarbaStathis a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Μπάρμπα Στάθης"@el .
+
+:BenJerrys a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Ben & Jerry's"@en .
+
+:Bertolli a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Bertolli"@en .
+
+:BirdsEye a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Birds Eye"@en .
+
+:BlisterPack a :ContainerType ;
+    rdfs:label "Blister Pack"@en .
+
+:Calgon a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Calgon"@en .
+
+:CaptainIglo a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Captain Iglo"@en .
+
+:Cesar a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Cesar"@en .
+
+:ChicagoTown a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Chicago Town"@en .
+
+:Colgate a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Colgate"@en .
+
+:Cup a :ContainerType ;
+    rdfs:label "Cup"@en .
+
+:Danone a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Danone"@en .
+
+:Dettol a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Dettol"@en .
+
+:Domestos a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Domestos"@en .
+
+:Dove a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Dove"@en .
+
+:Duck a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Duck"@en .
+
+:Endless a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Endless"@en .
+
+:FAGE a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "FAGE"@en .
+
+:Fairy a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Fairy"@en .
+
+:Galbani a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Galbani"@en .
+
+:Garnier a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Garnier"@en .
+
+:HeadShoulders a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Head & Shoulders"@en .
+
+:Heineken a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Heineken"@en .
+
+:Heinz a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Heinz"@en .
+
+:Hellmanns a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Hellmann's"@en .
+
+:Jacobs a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Jacobs"@el .
+
+:Jotis a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "ΓΙΩΤΗΣ"@el .
+
+:Kelloggs a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Kellogg's"@en .
+
+:Kind a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "KIND"@en .
+
+:Klinex a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Klinex"@en .
+
+:Lays a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Lays"@en .
+
+:Lenor a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Lenor"@en .
+
+:Listerine a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Listerine"@en .
+
+:Loumidis a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "loumidis"@en .
+
+:MISKO a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "MISKO"@en .
+
+:Magnum a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Magnum"@en .
+
+:Merenda a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Merenda"@en .
+
+:Milko a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Milko"@en .
+
+:Minerva a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Minerva"@en .
+
+:NatureValley a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Nature Valley"@en .
+
+:Nespresso a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Nespresso"@en .
+
+:Oatly a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Oatly"@en .
+
+:OralB a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Oral-B"@en .
+
+:Oreo a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Oreo"@en .
+
+:Pampers a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Pampers"@en .
+
+:Pantene a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Pantene"@en .
+
+:PaperBag a :ContainerType ;
+    rdfs:label "Paper Bag"@en .
+
+:Papia a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Papia"@en .
+
+:Pedigree a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Pedigree"@en .
+
+:Pepsi a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Pepsi"@en .
+
+:Perrier a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Perrier"@en .
+
+:Persil a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Persil"@en .
+
+:PriceSpec_0afd47e2861641209a977ebb62676ebe :hasPrice "3.8"^^xsd:float .
+
+:PriceSpec_30a9bc64a20647ed81d4ff6197110a18 :hasPrice "1.7"^^xsd:float .
+
+:PriceSpec_4a94497e93ba418b88f7d4e67cd695cd :hasPrice "1.3"^^xsd:float .
+
+:PriceSpec_Product004_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.85 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product009_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.35 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product011_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.50,
+        3.44 ;
+    :hasVATRate 13.0,
+        24.0 .
+
+:PriceSpec_Product013_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.54 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product014_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.50 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product015_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.30 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product016_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.25 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product018_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.80 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product019_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.99 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product020_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.75 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product022_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 9.94 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product023_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.56 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product024_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 7.90 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product025_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 5.65 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product026_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 7.59 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product027_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 7.53 ;
+    :hasVATRate 13.0,
+        24.0 .
+
+:PriceSpec_Product028_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.94 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product029_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 7.19 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product030_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.71 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product031_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.15 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product032_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.99 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product033_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.65 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product034_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 8.95 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product035_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.60 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product036_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 7.80 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product037_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.25 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product038_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.65 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product039_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.10 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product040_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.35 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product041_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 11.90 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product042_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.95 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product043_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.30 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product044_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.99 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product045_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.20 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product046_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 9.40 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product047_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.55 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product048_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.45 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product049_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.70 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product050_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.10 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product051_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.15 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product052_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 8.90 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product053_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.75 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product054_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.20 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product055_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.60 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product056_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.40 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product057_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.85 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product058_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 5.30 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product059_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.25 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product060_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.35 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product061_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.30 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product062_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.35 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product063_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.65 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product064_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.90 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product065_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.45 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product066_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.45 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product067_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.60 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product069_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.10 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product070_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.10 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product071_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.10 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product072_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.90 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product073_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.70 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product074_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.40 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product076_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.25 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product077_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.40 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product078_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.30 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product079_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.70 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product080_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.15 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product081_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.10 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product082_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.75 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product083_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 10.80 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product084_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.55 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product085_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.95 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product086_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.45 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product087_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.65 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product088_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.50 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product089_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.30 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product090_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 3.70 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product091_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 2.20 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product092_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.70 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product094_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 4.20 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product095_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 6.80 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product097_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.10 ;
+    :hasVATRate 24.0 .
+
+:PriceSpec_Product098_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 0.95 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_Product099_2025_05 a :PriceSpecification ;
+    :hasCurrency "EUR" ;
+    :hasPrice 1.40 ;
+    :hasVATRate 13.0 .
+
+:PriceSpec_b49183bda88f448192490536b1bc144c :hasPrice "0.92"^^xsd:float .
+
+:PriceSpec_b4f8b51fa9f540d5a0da4ff710338b50 :hasPrice "1.15"^^xsd:float .
+
+:PriceSpec_fdd52a5ffb8e4df58a9e3bc3d79c6bb5 :hasPrice "4.5"^^xsd:float .
+
+:Pringles a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Pringles"@en .
+
+:Pummaro a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Pummaro"@en .
+
+:Quaker a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Quaker"@en .
+
+:RedBull a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Red Bull"@en .
+
+:Regina a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Regina"@en .
+
+:RioMare a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Rio Mare"@en .
+
+:Ristorante a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Ristorante"@en .
+
+:SanPellegrino a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "San Pellegrino"@en .
+
+:ScotchBrite a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Scotch-Brite"@en .
+
+:SelinaSalt a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Selina"@en .
+
+:SprayCan a :ContainerType ;
+    rdfs:label "Spray Can"@en .
+
+:Tray a :ContainerType ;
+    rdfs:label "Tray"@en .
+
+:Tube a :ContainerType ;
+    rdfs:label "Tube"@en .
+
+:Weetabix a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Weetabix"@en .
+
+:Zafiropoulos a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Zafiropoulos"@en .
+
+:Zewa a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Zewa"@en .
+
+:Carton a :ContainerType ;
+    rdfs:label "Carton"@en .
+
+:CocaCola a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "CocaCola"@en .
+
+:DrOetker a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Dr. Oetker"@en .
+
+:Finish a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Finish"@en .
+
+:Jar a :ContainerType ;
+    rdfs:label "Jar"@en .
+
+:Lipton a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Lipton"@en .
+
+:NOUNOU a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "NOUNOU"@en .
+
+:Nestle a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Nestlé"@en .
+
+:Packet a :ContainerType ;
+    rdfs:label "Packet"@en .
+
+:Papadopoulou a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "Papadopoulou"@en .
+
+:PumpBottle a :ContainerType ;
+    rdfs:label "Pump Bottle"@en .
+
+:VacuumPack a :ContainerType ;
+    rdfs:label "VacuumPack"@en .
+
+:BottlePlastic a :ContainerType ;
+    rdfs:label "Plastic Bottle"@en .
+
+:ION a :Manufacturer,
+        schema:Organization ;
+    rdfs:label "ION"@en .
+
+:Pack a :ContainerType ;
+    rdfs:label "Pack"@en .
+
+:RollPack a :ContainerType ;
+    rdfs:label "Roll Pack"@en .
+
+:TetraPak a :ContainerType ;
+    rdfs:label "Tetra Pak"@en .
+
+:BottleGlass a :ContainerType ;
+    rdfs:label "Glass Bottle"@en .
+
+:Can a :ContainerType ;
+    rdfs:label "Can"@en .
+
+:Bottle a :ContainerType ;
+    rdfs:label "Bottle"@en .
+
+:Box a :ContainerType ;
+    rdfs:label "Box"@en .
+

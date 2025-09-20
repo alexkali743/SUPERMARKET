@@ -1,0 +1,98 @@
+@prefix ns1: <http://example.org/supermarket#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Order_1d1960f2d9bb46339e77e39bce31076e a ns1:Order ;
+    ns1:createdAt "2025-09-11T21:04:27.637627"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201100110011\", \"name\": \"\\u03a3\\u03bf\\u03ba\\u03bf\\u03bb\\u03ac\\u03c4\\u03b1 \\u0399\\u039f\\u039d \\u0391\\u03bc\\u03c5\\u03b3\\u03b4\\u03ac\\u03bb\\u03bf\\u03c5 100g\", \"price\": 0.85, \"quantity\": 1}, {\"id\": \"5201133333333\", \"name\": \"\\u039d\\u03b5\\u03c1\\u03cc \\u0396\\u03b1\\u03b3\\u03cc\\u03c1\\u03b9 1.5L\", \"price\": 0.45, \"quantity\": 2}, {\"id\": \"5201188990011\", \"name\": \"\\u039a\\u03b1\\u03c6\\u03ad\\u03c2 \\u03c3\\u03c4\\u03b9\\u03b3\\u03bc\\u03b9\\u03b1\\u03af\\u03bf\\u03c2 Nescafe Classic 200g\", \"price\": 4.2, \"quantity\": 1}, {\"id\": \"5201177889900\", \"name\": \"\\u03a0\\u03b1\\u03c4\\u03b1\\u03c4\\u03ac\\u03ba\\u03b9\\u03b1 Lays \\u0391\\u03bb\\u03ac\\u03c4\\u03b9 150 g\", \"price\": 1.35, \"quantity\": 3}, {\"id\": \"5209047009130\", \"name\": \"\\u039b\\u039f\\u03a5\\u039c\\u0399\\u0394\\u0397\\u03a3 \\u03a0\\u0391\\u03a0\\u0391\\u0393\\u0391\\u039b\\u039f\\u03a3 \\u0388\\u03ba\\u03b1\\u03c3\\u03c4\\u03bf\\u03c2 \\u03ba\\u03b1\\u03c6\\u03ad\\u03c2 \\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03cc\\u03c2 96g\", \"price\": 1.5, \"quantity\": 1}, {\"id\": \"5201166778899\", \"name\": \"\\u03a7\\u03c5\\u03bc\\u03cc\\u03c2 \\u03a0\\u03bf\\u03c1\\u03c4\\u03bf\\u03ba\\u03ac\\u03bb\\u03b9 AMITA Motion 1.5 L\", \"price\": 1.7, \"quantity\": 2}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_1efe03374ebe47abbf1dc19698fd76d5 a ns1:Order ;
+    ns1:createdAt "2025-08-29T15:42:32.502262"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201100110011\", \"name\": \"\\u03a3\\u03bf\\u03ba\\u03bf\\u03bb\\u03ac\\u03c4\\u03b1 \\u0399\\u039f\\u039d \\u0391\\u03bc\\u03c5\\u03b3\\u03b4\\u03ac\\u03bb\\u03bf\\u03c5 100g\", \"price\": 0.85, \"quantity\": 1}, {\"id\": \"5201177889900\", \"name\": \"\\u03a0\\u03b1\\u03c4\\u03b1\\u03c4\\u03ac\\u03ba\\u03b9\\u03b1 Lays \\u0391\\u03bb\\u03ac\\u03c4\\u03b9 150 g\", \"price\": 1.35, \"quantity\": 1}, {\"id\": \"5201188990011\", \"name\": \"\\u039a\\u03b1\\u03c6\\u03ad\\u03c2 \\u03c3\\u03c4\\u03b9\\u03b3\\u03bc\\u03b9\\u03b1\\u03af\\u03bf\\u03c2 Nescafe Classic 200g\", \"price\": 4.2, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_28ac13ef3b504e7191c01e1c6ea07749 a ns1:Order ;
+    ns1:createdAt "2025-09-15T16:22:05.182487"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5202941363907\", \"name\": \"\\u039a\\u03b1\\u03c6\\u03ad\\u03c2 NOYNOY Cappuccino 796 g\", \"price\": 7.9, \"quantity\": 1}, {\"id\": \"5208525459940\", \"name\": \"Klinex \\u0391\\u03c0\\u03bf\\u03bb\\u03c5\\u03bc\\u03b1\\u03bd\\u03c4\\u03b9\\u03ba\\u03cc \\u03a5\\u03b3\\u03c1\\u03cc 1 369 ml\", \"price\": 7.53, \"quantity\": 1}, {\"id\": \"5207575638896\", \"name\": \"\\u03a8\\u03c9\\u03bc\\u03af \\u03a3\\u03c4\\u03b1\\u03c1\\u03ad\\u03bd\\u03b9\\u03bf \\u03a0\\u03b1\\u03c0\\u03b1\\u03b4\\u03bf\\u03c0\\u03bf\\u03cd\\u03bb\\u03bf\\u03c5 1 473 g\", \"price\": 7.59, \"quantity\": 1}, {\"id\": \"5203627723094\", \"name\": \"Jacobs \\u0395\\u03ba\\u03bb\\u03b5\\u03ba\\u03c4\\u03cc\\u03c2 \\u039a\\u03b1\\u03c6\\u03ad\\u03c2 \\u03a6\\u03af\\u03bb\\u03c4\\u03bf\\u03c1\\u03c5 217 g\", \"price\": 3.94, \"quantity\": 1}, {\"id\": \"5203562117136\", \"name\": \"\\u03a1\\u03cd\\u03b6\\u03b9 Agrino \\u039a\\u03b1\\u03c1\\u03bf\\u03bb\\u03af\\u03bd\\u03b1 596 g\", \"price\": 5.65, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_295d405aed6f467c87166355c5f1cd4a a ns1:Order ;
+    ns1:createdAt "2025-09-15T16:25:38.497865"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5200987654321\", \"name\": \"\\u03a8\\u03c9\\u03bc\\u03af \\u039f\\u03bb\\u03b9\\u03ba\\u03ae\\u03c2 \\u03a0\\u03b1\\u03c0\\u03b1\\u03b4\\u03bf\\u03c0\\u03bf\\u03cd\\u03bb\\u03bf\\u03c5 500g\", \"price\": 1.2, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_2f646b5972ce4bed844656e92a294662 a ns1:Order ;
+    ns1:createdAt "2025-09-15T16:29:37.865968"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201100110011\", \"name\": \"\\u03a3\\u03bf\\u03ba\\u03bf\\u03bb\\u03ac\\u03c4\\u03b1 \\u0399\\u039f\\u039d \\u0391\\u03bc\\u03c5\\u03b3\\u03b4\\u03ac\\u03bb\\u03bf\\u03c5 100g\", \"price\": 0.85, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_4d34b6036e4e4c94af8d886353694c3c a ns1:Order ;
+    ns1:createdAt "2025-07-28T18:00:18.955006"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201234567890\", \"name\": \"\\u0393\\u03ac\\u03bb\\u03b1 \\u03a0\\u03bb\\u03ae\\u03c1\\u03b5\\u03c2 \\u0394\\u0395\\u039b\\u03a4\\u0391 1L\", \"price\": 100.0, \"quantity\": 1}, {\"id\": \"5200987654321\", \"name\": \"\\u03a8\\u03c9\\u03bc\\u03af \\u039f\\u03bb\\u03b9\\u03ba\\u03ae\\u03c2 \\u03a0\\u03b1\\u03c0\\u03b1\\u03b4\\u03bf\\u03c0\\u03bf\\u03cd\\u03bb\\u03bf\\u03c5 500g\", \"price\": 1.2, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_00e03649e0c6477699b01612bcabab8b .
+
+ns1:Order_54d2c7b8ccca484b9b1049bd36070a04 a ns1:Order ;
+    ns1:createdAt "2025-07-28T18:04:34.778953"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201166778899\", \"name\": \"\\u03a7\\u03c5\\u03bc\\u03cc\\u03c2 \\u03a0\\u03bf\\u03c1\\u03c4\\u03bf\\u03ba\\u03ac\\u03bb\\u03b9 AMITA Motion 1.5 L\", \"price\": 1.7, \"quantity\": 10}]" ;
+    ns1:orderedBy ns1:User_5daa2b86fbab44929931a35269609765 .
+
+ns1:Order_6dfe2786d723450a8706f4eec34e7dae a ns1:Order ;
+    ns1:createdAt "2025-09-15T16:37:50.713730"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201133333333\", \"name\": \"\\u039d\\u03b5\\u03c1\\u03cc \\u0396\\u03b1\\u03b3\\u03cc\\u03c1\\u03b9 1.5L\", \"price\": 0.45, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_87adbef0b0d84ebc8b50fb3b9054f5b2 a ns1:Order ;
+    ns1:createdAt "2025-09-20T11:34:17.987365"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201100110011\", \"name\": \"\\u03a3\\u03bf\\u03ba\\u03bf\\u03bb\\u03ac\\u03c4\\u03b1 \\u0399\\u039f\\u039d \\u0391\\u03bc\\u03c5\\u03b3\\u03b4\\u03ac\\u03bb\\u03bf\\u03c5 100g\", \"price\": 0.85, \"quantity\": 10}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_956261cb192641fabb508ec5087ca96f a ns1:Order ;
+    ns1:createdAt "2025-08-26T17:21:54.841418"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201133333333\", \"name\": \"\\u039d\\u03b5\\u03c1\\u03cc \\u0396\\u03b1\\u03b3\\u03cc\\u03c1\\u03b9 1.5L\", \"price\": 0.45, \"quantity\": 1}, {\"id\": \"5201166778899\", \"name\": \"\\u03a7\\u03c5\\u03bc\\u03cc\\u03c2 \\u03a0\\u03bf\\u03c1\\u03c4\\u03bf\\u03ba\\u03ac\\u03bb\\u03b9 AMITA Motion 1.5 L\", \"price\": 1.7, \"quantity\": 2}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_a8d4bbba78be40b888d104d6216f6960 a ns1:Order ;
+    ns1:createdAt "2025-08-26T17:26:32.795378"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5200987654321\", \"name\": \"\\u03a8\\u03c9\\u03bc\\u03af \\u039f\\u03bb\\u03b9\\u03ba\\u03ae\\u03c2 \\u03a0\\u03b1\\u03c0\\u03b1\\u03b4\\u03bf\\u03c0\\u03bf\\u03cd\\u03bb\\u03bf\\u03c5 500g\", \"price\": 1.2, \"quantity\": 1}, {\"id\": \"5201133333333\", \"name\": \"\\u039d\\u03b5\\u03c1\\u03cc \\u0396\\u03b1\\u03b3\\u03cc\\u03c1\\u03b9 1.5L\", \"price\": 0.45, \"quantity\": 1}, {\"id\": \"5201188990011\", \"name\": \"\\u039a\\u03b1\\u03c6\\u03ad\\u03c2 \\u03c3\\u03c4\\u03b9\\u03b3\\u03bc\\u03b9\\u03b1\\u03af\\u03bf\\u03c2 Nescafe Classic 200g\", \"price\": 4.2, \"quantity\": 1}, {\"id\": \"5206427261295\", \"name\": \"CocaCola 330 ml\", \"price\": 0.54, \"quantity\": 1}, {\"id\": \"5201303174961\", \"name\": \"\\u0394\\u03b7\\u03bc\\u03b7\\u03c4\\u03c1\\u03b9\\u03b1\\u03ba\\u03ac Nestl\\u00e9 Cheerios 625 g\", \"price\": 3.8, \"quantity\": 1}, {\"id\": \"5203366554432\", \"name\": \"\\u03a5\\u03b3\\u03c1\\u03cc \\u03a0\\u03b9\\u03ac\\u03c4\\u03c9\\u03bd Fairy Lemon 650 ml\", \"price\": 2.3, \"quantity\": 1}, {\"id\": \"5201478529630\", \"name\": \"\\u0393\\u03b9\\u03b1\\u03bf\\u03cd\\u03c1\\u03c4\\u03b9 KOLIOS Total 2 % 200 g\", \"price\": 1.25, \"quantity\": 1}, {\"id\": \"5201698745213\", \"name\": \"Pizza Dr. Oetker Ristorante Mozzarella 340 g\", \"price\": 3.99, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_b0e76b0fc85440bea3b74b3ff60c96c3 a ns1:Order ;
+    ns1:createdAt "2025-09-16T12:49:33.793995"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201100110011\", \"name\": \"\\u03a3\\u03bf\\u03ba\\u03bf\\u03bb\\u03ac\\u03c4\\u03b1 \\u0399\\u039f\\u039d \\u0391\\u03bc\\u03c5\\u03b3\\u03b4\\u03ac\\u03bb\\u03bf\\u03c5 100g\", \"price\": 0.85, \"quantity\": 1}, {\"id\": \"5201133333333\", \"name\": \"\\u039d\\u03b5\\u03c1\\u03cc \\u0396\\u03b1\\u03b3\\u03cc\\u03c1\\u03b9 1.5L\", \"price\": 0.45, \"quantity\": 2}, {\"id\": \"5201188990011\", \"name\": \"\\u039a\\u03b1\\u03c6\\u03ad\\u03c2 \\u03c3\\u03c4\\u03b9\\u03b3\\u03bc\\u03b9\\u03b1\\u03af\\u03bf\\u03c2 Nescafe Classic 200g\", \"price\": 4.2, \"quantity\": 1}, {\"id\": \"5201177889900\", \"name\": \"\\u03a0\\u03b1\\u03c4\\u03b1\\u03c4\\u03ac\\u03ba\\u03b9\\u03b1 Lays \\u0391\\u03bb\\u03ac\\u03c4\\u03b9 150 g\", \"price\": 1.35, \"quantity\": 3}, {\"id\": \"5209047009130\", \"name\": \"\\u039b\\u039f\\u03a5\\u039c\\u0399\\u0394\\u0397\\u03a3 \\u03a0\\u0391\\u03a0\\u0391\\u0393\\u0391\\u039b\\u039f\\u03a3 \\u0388\\u03ba\\u03b1\\u03c3\\u03c4\\u03bf\\u03c2 \\u03ba\\u03b1\\u03c6\\u03ad\\u03c2 \\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03cc\\u03c2 96g\", \"price\": 1.5, \"quantity\": 1}, {\"id\": \"5201166778899\", \"name\": \"\\u03a7\\u03c5\\u03bc\\u03cc\\u03c2 \\u03a0\\u03bf\\u03c1\\u03c4\\u03bf\\u03ba\\u03ac\\u03bb\\u03b9 AMITA Motion 1.5 L\", \"price\": 1.7, \"quantity\": 2}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_b200935029104301aa4481cd202dc397 a ns1:Order ;
+    ns1:createdAt "2025-08-28T11:55:58.962574"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201234567890\", \"name\": \"\\u0393\\u03ac\\u03bb\\u03b1 \\u03a0\\u03bb\\u03ae\\u03c1\\u03b5\\u03c2 \\u0394\\u0395\\u039b\\u03a4\\u0391 1L\", \"price\": 100.0, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_d562f6f1fe374806a22795fad8a41da8 a ns1:Order ;
+    ns1:createdAt "2025-09-20T11:19:17.449804"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201029384756\", \"name\": \"\\u039c\\u03b1\\u03ba\\u03b1\\u03c1\\u03cc\\u03bd\\u03b9\\u03b1 MISKO \\u039d\\u03bf6 500g\", \"price\": 1.15, \"quantity\": 1}, {\"id\": \"5200987654321\", \"name\": \"\\u03a8\\u03c9\\u03bc\\u03af \\u039f\\u03bb\\u03b9\\u03ba\\u03ae\\u03c2 \\u03a0\\u03b1\\u03c0\\u03b1\\u03b4\\u03bf\\u03c0\\u03bf\\u03cd\\u03bb\\u03bf\\u03c5 500g\", \"price\": 0.95, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_12d264a42ed9403582844a7c1a36b4e6 .
+
+ns1:Order_f71241ef7cda417bb7a067a2844bcc54 a ns1:Order ;
+    ns1:createdAt "2025-09-16T14:11:21.323498"^^xsd:dateTime ;
+    ns1:hasItems "[{\"id\": \"5201234567890\", \"name\": \"\\u0393\\u03ac\\u03bb\\u03b1 \\u03a0\\u03bb\\u03ae\\u03c1\\u03b5\\u03c2 \\u0394\\u0395\\u039b\\u03a4\\u0391 1L\", \"price\": 1.37, \"quantity\": 1}]" ;
+    ns1:orderedBy ns1:User_ae19ab4800ac4d64a993bb85678e444d .
+
+ns1:User_00e03649e0c6477699b01612bcabab8b a ns1:User ;
+    ns1:email "malakas@gmail.com" ;
+    ns1:passwordHash "$2b$12$8RlMrQkRNSXKEIa1.gLHcOdes8hRFhciijcEzmHfC.xd8hVCt6I7e" ;
+    ns1:role "user" .
+
+ns1:User_5daa2b86fbab44929931a35269609765 a ns1:User ;
+    ns1:email "eleanna@12345.com" ;
+    ns1:passwordHash "$2b$12$zeRTfJNI8QfkaXvMzBns/OAtWOkdmQseSSffP3L9fD2MIAozdpKde" ;
+    ns1:role "user" .
+
+ns1:User_ae19ab4800ac4d64a993bb85678e444d a ns1:User ;
+    ns1:email "admin@market.gr" ;
+    ns1:passwordHash "$2b$12$MMtNqaAjmWGRs47or8RvFe8xY0jhug2YzYscnaZYiZ9tj/1kdDkOe" ;
+    ns1:role "admin" .
+
+ns1:User_12d264a42ed9403582844a7c1a36b4e6 a ns1:User ;
+    ns1:email "test@1234.com" ;
+    ns1:passwordHash "$2b$12$0ohUpeZ2Cj8OViQfHtSbIORRuLkHA75XGjgNu.X7yLNrlQWjkmG8K" ;
+    ns1:role "user" .
+

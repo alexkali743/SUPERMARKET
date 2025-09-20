@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Προσθήκη Προϊόντος</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 50px auto;
+            background: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>➕ Προσθήκη Προϊόντος</h2>
+    <form id="productForm">
+        <label>Όνομα</label>
+        <input type="text" name="label" required>
+
+        <label>SKU</label>
+        <input type="text" name="sku" required>
+
+        <label>Stock Level</label>
+        <input type="number" name="stockLevel" required>
+
+        <label>Ημερομηνία Λήξης</label>
+        <input type="date" name="expire" required>
+
+        <label>Παραγωγός</label>
+        <input type="text" name="producer" required>
+
+        <label>GTIN-13</label>
+        <input type="text" name="gtin13" required>
+
+        <label>Βάρος (σε g)</label>
+        <input type="number" name="weight" step="0.01" required>
+
+        <label>Κατηγορία</label>
+        <input type="text" name="category" required>
+
+        <label>Τιμή (€)</label>
+        <input type="number" name="price" step="0.01" required>
+
+        <button type="submit">Προσθήκη</button>
+    </form>
+
+    <script>
+        document.getElementById("productForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+            const form = e.target;
+            const data = Object.fromEntries(new FormData(form).entries());
+
+            const response = await fetch("/products/add", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(data),
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                alert("✅ Το προϊόν προστέθηκε!");
+                form.reset();
+            } else {
+                alert("❌ Σφάλμα: " + result.detail);
+            }
+        });
+    </script>
+</body>
+</html>
