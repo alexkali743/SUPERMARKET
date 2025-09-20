@@ -1,0 +1,110 @@
+/* src/components/OrderConfirmationModal.css */
+
+/* Backdrop */
+.oc-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 300;
+}
+
+/* Receipt‐style modal */
+.oc-modal {
+  background: #fff;
+  width: 320px;
+  max-width: 90%;
+  padding: 1rem 1.5rem;
+  border: 1px dashed #444;
+  font-family: 'Courier New', Courier, monospace;
+  color: #222;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  line-height: 1.4;
+}
+
+/* Simulate receipt tear‐off edge */
+.oc-modal::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 8px;
+  background: #fff;
+  box-shadow: 0 -4px 0 0 #fff;
+  border-bottom: 1px dashed #444;
+}
+
+/* Close button (small) */
+.oc-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #444;
+}
+
+/* Title */
+.oc-modal h2 {
+  text-align: center;
+  margin: 0.5rem 0 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Divider line */
+.oc-modal hr {
+  border: none;
+  border-top: 1px dashed #444;
+  margin: 0.5rem 0;
+}
+
+/* List styling */
+.oc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.oc-list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+/* Totals section */
+.oc-modal .oc-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  font-weight: bold;
+  border-top: 1px dashed #444;
+  padding-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* Dismiss button styled small */
+.oc-btn {
+  display: block;
+  width: 100%;
+  margin: 1rem auto 0;
+  padding: 0.5rem 0;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+.oc-btn:hover {
+  background: #333;
+}

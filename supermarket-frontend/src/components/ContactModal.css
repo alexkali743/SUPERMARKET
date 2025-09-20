@@ -1,0 +1,18 @@
+.contact-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;z-index:1000}
+.contact-modal{background:#fff;border-radius:18px;max-width:680px;width:94vw;box-shadow:0 10px 30px rgba(0,0,0,.12);overflow:hidden}
+.contact-header{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid #eee}
+.close-btn{border:0;background:transparent;font-size:22px;line-height:1;cursor:pointer}
+.contact-form{padding:16px 18px;display:grid;gap:12px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+label{display:grid;gap:6px;font-size:14px}
+input,select,textarea{border:1px solid #ddd;border-radius:10px;padding:10px 12px;font-size:14px;outline:none}
+input:focus,select:focus,textarea:focus{border-color:#046713}
+.full{grid-column:1/-1}
+.consent{display:flex;align-items:flex-start;gap:8px}
+.primary{background:#046713;color:#fff;border:0;border-radius:10px;padding:10px 14px;font-weight:600;cursor:pointer}
+.primary:disabled{opacity:.6;cursor:not-allowed}
+.status{padding:8px 10px;border-radius:8px;font-size:13px}
+.status.ok{background:#ecfdf5;color:#065f46}
+.status.err{background:#fef2f2;color:#046713}
+.honeypot{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+@media (max-width:640px){.grid{grid-template-columns:1fr}}

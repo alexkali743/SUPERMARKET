@@ -1,0 +1,13 @@
+/* OrdersPage.css */
+.orders-page { padding: 16px; }
+.orders-list { list-style: none; padding: 0; margin: 0; }
+.order-card { border: 1px solid #eee; padding: 12px; border-radius: 12px; margin-bottom: 12px; background: #fff; }
+.order-header { display: flex; gap: 16px; justify-content: space-between; margin-bottom: 8px; }
+.order-items { display: grid; grid-template-columns: 1fr auto auto; gap: 6px 12px; align-items: center; }
+.order-item { display: contents; }
+.order-item .title { font-weight: 500; }
+.order-item .qty { text-align: right; }
+.order-item .price { text-align: right; }
+.order-actions { display: flex; justify-content: flex-end; margin-top: 10px; }
+.reorder-btn { background: #0ea5e9; color: white; border: none; border-radius: 10px; padding: 8px 12px; cursor: pointer; }
+.reorder-btn:hover { filter: brightness(0.95); }

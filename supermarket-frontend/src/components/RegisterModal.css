@@ -1,0 +1,84 @@
+/* Backdrop */
+.rm-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+/* Modal box */
+.rm-modal {
+  background: #fff;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  padding: 1.5rem;
+  position: relative;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* Close button */
+.rm-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #555;
+}
+
+/* Title */
+.rm-modal h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+/* Error message */
+.rm-error {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Form */
+.rm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.rm-form input[type="email"],
+.rm-form input[type="password"] {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Button */
+.rm-btn {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.rm-btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+.rm-btn-primary:hover {
+  background: #1e8449;
+}

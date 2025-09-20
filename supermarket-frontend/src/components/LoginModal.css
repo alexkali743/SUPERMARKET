@@ -1,0 +1,144 @@
+/* ====================== Login Modal (scoped) ====================== */
+
+/* Backdrop */
+.lm-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.55);       /* σκούρα ημιδιαφάνεια */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+/* Κουτί modal */
+.lm-modal {
+  position: relative;
+  width: clamp(320px, 92vw, 460px);          /* δεν ξεχειλίζει ποτέ */
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 22px;
+  box-shadow: 0 10px 34px rgba(0,0,0,.18);
+  font-family: inherit;
+}
+.lm-modal * { box-sizing: border-box; }      /* ασφαλές sizing μέσα στο modal */
+
+/* Κουμπί κλεισίματος */
+.lm-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  background: transparent;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  color: #374151;
+}
+.lm-close:hover { background: rgba(0,0,0,.06); }
+
+/* Τίτλος */
+.lm-modal h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #111827;
+  margin: 6px 0 14px;
+}
+
+/* Φόρμα: στοίχιση & κενά */
+.lm-modal form {
+  display: grid;
+  grid-template-columns: 1fr;               /* στοίχιση κάθετα */
+  gap: 10px;
+}
+
+/* Inputs – full width, χωρίς overflow */
+.lm-modal input[type="email"],
+.lm-modal input[type="password"],
+.lm-modal input[type="text"] {
+  width: 100%;
+  min-width: 0;                              /* σταματά το «πέταγμα» έξω από το modal */
+  appearance: none;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  color: #111827;
+}
+.lm-modal input::placeholder { color: #9ca3af; }
+.lm-modal input:focus {
+  outline: 0;
+  border-color: #10b981;                     /* emerald */
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, .2);
+}
+
+/* Remember me */
+.lm-remember,
+.lm-modal label[for="remember"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .92rem;
+  color: #374151;
+  margin: 2px 0 6px;
+}
+.lm-remember input[type="checkbox"] { width: 16px; height: 16px; }
+
+/* Πρωτεύον κουμπί "Είσοδος" */
+.lm-btn,
+.lm-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 44px;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .06s ease, background .15s ease, box-shadow .15s ease;
+}
+.lm-btn-primary {
+  background: var(--primary, #10b981);
+  color: #fff;
+}
+.lm-btn-primary:hover { filter: brightness(0.97); }
+.lm-btn-primary:active { transform: translateY(0.5px); }
+
+/* Δευτερεύον & Guest κουμπί */
+.lm-btn-secondary {
+  background: #efefef;
+  color: #111;
+}
+.lm-btn-secondary:hover { background: #e7e7e7; }
+
+.lm-btn-guest {
+  background: #10b981;
+  color: #fff;
+}
+.lm-btn-guest:hover { filter: brightness(0.97); }
+
+/* Περιοχή ενεργειών (Εγγραφή / Επισκέπτης) */
+.lm-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+@media (min-width: 520px) {
+  .lm-actions { grid-template-columns: 1fr 1fr; }
+}
+
+/* Κείμενα/υποσημειώσεις μέσα στο modal */
+.lm-modal p,
+.lm-modal .lm-helper {
+  text-align: center;
+  font-size: .9rem;
+  color: #6b7280;
+  margin: 10px 0 6px;
+}

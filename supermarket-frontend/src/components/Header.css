@@ -1,0 +1,99 @@
+/* ----- Layout ----- */
+.neo-header { background: var(--surface); box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+.neo-header .inner { display: flex; align-items: center; gap: .75rem; padding: .6rem 0; }
+.neo-flex-1 { flex: 1; }
+
+/* ----- Logo (stacked text) ----- */
+.logo { display: inline-flex; align-items: center; gap: .6rem; text-decoration: none; }
+.brand-logo { width: 52px; height: 52px; border-radius: 8px; object-fit: cover; }
+.brand-text { display: flex; flex-direction: column; line-height: 1; }
+.brand-line { display: block; }
+.brand-title { font-weight: 800; font-size: 1.15rem; color: #215c43; letter-spacing: .2px; }
+.brand-sub   { margin-top: 2px; font-weight: 800; font-size: .95rem; color: var(--primary); }
+
+/* ----- Search ----- */
+.neo-search {
+  display: inline-flex; align-items: center; gap: .5rem;
+  border: 1px solid #e1e1e1; border-radius: 999px;
+  padding: .4rem .8rem; background: #fff;
+}
+.neo-search input { border: none; outline: none; width: 240px; font-size: .95rem; }
+
+/* ----- Links ----- */
+.nav-link {
+  color: #3b3b3b; text-decoration: none; padding: .45rem .6rem;
+  border-radius: 8px; font-weight: 600; transition: background .2s ease, color .2s ease;
+}
+.nav-link:hover { background: var(--primary); color: var(--on-primary); }
+
+/* ----- City select (hidden on admin via JS, but keep style) ----- */
+.neo-location-wrap { margin: 0 .4rem 0 .2rem; }
+.neo-location {
+  border: 1px solid #e1e1e1; border-radius: 8px; padding: .35rem .6rem; background: #fff; font-weight: 600;
+}
+
+/* ----- "Οι παραγγελίες μου" as slim outline button ----- */
+.btn-orders {
+  display: inline-flex; align-items: center; justify-content: center;
+  white-space: nowrap;
+  background: transparent;
+  color: #2e7d32 !important;
+  border: 2px solid #2e7d32;
+  padding: .42rem .9rem;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: none;
+  transition: background-color .2s ease, color .2s ease, transform .06s ease, box-shadow .2s ease;
+}
+.btn-orders:hover {
+  background: #2e7d32;
+  color: #fff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(46,125,50,.25);
+}
+
+/* ----- Welcome text ----- */
+.welcome { display: inline-flex; align-items: baseline; gap: .3rem; font-size: .95rem; color: #4b4b4b; }
+.welcome .wave { filter: saturate(.9); }
+.welcome-accent { color: var(--primary); font-weight: 800; }
+.welcome-dot { color: #8a8a8a; }
+
+/* ----- Header actions ----- */
+.header-actions { display: inline-flex; align-items: center; gap: .6rem; margin-left: .4rem; }
+.neo-btn { background: transparent; border: none; font-weight: 700; cursor: pointer; padding: .45rem .6rem; border-radius: 8px; }
+.neo-btn:hover { background: rgba(0,0,0,.06); }
+
+/* ----- Cart (ορατό & έντονο) ----- */
+.neo-cart {
+  display: inline-flex; align-items: center; gap: .45rem;
+  background: #2c3e50; color: #fff !important; text-decoration: none;
+  padding: .5rem .75rem; border-radius: 10px; position: relative; font-weight: 700;
+}
+.cart-icon { font-size: 1.05rem; line-height: 1; }
+.cart-label { display: none; }
+.cart-badge {
+  min-width: 22px; height: 22px; padding: 0 6px;
+  background: #e74c3c; color: #fff; border-radius: 999px; font-size: .8rem; font-weight: 800;
+  display: inline-flex; align-items: center; justify-content: center;
+  position: absolute; top: -8px; right: -8px; box-shadow: 0 2px 6px rgba(231,76,60,.35);
+}
+
+/* ----- Admin mode tweaks ----- */
+.neo-header.admin-mode .neo-search input { width: 260px; }
+.neo-header.admin-mode .neo-location-wrap, .neo-header.admin-mode .btn-orders { display: none !important; }
+.neo-header.admin-mode .nav-link { background: #f5fff8; border: 1px solid #ddf2e5; }
+.neo-header.admin-mode .nav-link:hover { background: var(--primary); color: var(--on-primary); }
+
+/* ----- Responsive ----- */
+@media (max-width: 960px) {
+  .neo-search input { width: 170px; }
+  .neo-header.admin-mode .neo-search input { width: 200px; }
+}
+@media (max-width: 700px) {
+  .inner { flex-wrap: wrap; }
+  .neo-flex-1 { display: none; }
+  .neo-search { order: 3; width: 100%; }
+  .neo-search input { width: 100%; }
+  .cart-label { display: inline; } /* σε μικρό πλάτος δείξε και "Καλάθι" */
+}

@@ -1,0 +1,30 @@
+.category-filters {
+  display: flex;
+  justify-content: center;  /* Κεντράρει οριζόντια */
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 2rem auto;        /* Αυτόματο δεξί/αριστερό margin */
+  max-width: 1000px;        /* Προσαρμόζεις όπως θες */
+  padding: 0 1rem;
+}
+
+.filter-pill {
+  background-color: #098022;
+  color:#ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.filter-pill:hover {
+  background-color: #cacaca;
+  transform: translateY(-2px);
+}
+
+.filter-pill.active {
+  background-color: #5ec875;
+  color: white;
+}
