@@ -1,7 +1,7 @@
 // src/components/CategoryFilters.jsx
 import React from 'react';
-import './CategoryFilters.css';  // ή App.css αν το έβαλες εκεί
-//import './App.css';  // ή App.css αν το έβαλες εκεί
+import './CategoryFilters.css';  
+
 
 
 const CategoryFilters = ({ categories, active, onSelect }) => (

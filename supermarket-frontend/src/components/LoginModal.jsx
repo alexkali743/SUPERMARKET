@@ -23,7 +23,6 @@ const LoginModal = ({ isOpen, onClose, onLogin, onRegisterClick, onGuest }) => {
       });
 
       if (!res.ok) {
-        // προσπάθεια να διαβάσουμε μήνυμα λάθους από backend
         let msg = 'Αποτυχία σύνδεσης';
         try {
           const body = await res.json();
@@ -35,17 +34,17 @@ const LoginModal = ({ isOpen, onClose, onLogin, onRegisterClick, onGuest }) => {
       const data = await res.json(); // αναμένουμε { message, email, role }
       const userData = { email: data.email, role: data.role };
 
-      // Παράδοση στον γονέα (App.js) — εκεί αποθηκεύεται το user στο localStorage
+      
       onLogin(userData);
 
-      // Αν ο χρήστης τσέκαρε "Αποθήκευση", μπορούμε προαιρετικά να κρατήσουμε μόνο το email
+      
       if (remember) {
         try {
           localStorage.setItem('remember_email', email);
         } catch {}
       }
 
-      // καθάρισμα & κλείσιμο
+      
       setEmail('');
       setPassword('');
       setRemember(false);

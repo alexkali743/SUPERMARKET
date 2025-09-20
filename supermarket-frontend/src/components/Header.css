@@ -95,5 +95,5 @@
   .neo-flex-1 { display: none; }
   .neo-search { order: 3; width: 100%; }
   .neo-search input { width: 100%; }
-  .cart-label { display: inline; } /* σε μικρό πλάτος δείξε και "Καλάθι" */
+  .cart-label { display: inline; } 
 }

@@ -10,7 +10,7 @@ export default function ContactModal({ open, onClose }) {
     topic: "Ερώτηση",
     message: "",
     consent: false,
-    // honeypot (αν συμπληρωθεί => spam)
+    
     website: "",
   });
   const [status, setStatus] = useState({ loading: false, ok: null, msg: "" });

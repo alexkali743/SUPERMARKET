@@ -1,10 +1,10 @@
 .category-filters {
   display: flex;
-  justify-content: center;  /* Κεντράρει οριζόντια */
+  justify-content: center;  
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin: 2rem auto;        /* Αυτόματο δεξί/αριστερό margin */
-  max-width: 1000px;        /* Προσαρμόζεις όπως θες */
+  margin: 2rem auto;       
+  max-width: 1000px;        
   padding: 0 1rem;
 }
 

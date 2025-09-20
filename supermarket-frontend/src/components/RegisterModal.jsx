@@ -19,7 +19,7 @@ const RegisterModal = ({ isOpen, onClose, onRegister }) => {
     }
 
     try {
-      // ✅ Χρήση του σωστού RDF endpoint
+      // Χρήση του σωστού RDF endpoint
       const res = await fetch('http://localhost:8000/users/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -37,13 +37,13 @@ const RegisterModal = ({ isOpen, onClose, onRegister }) => {
 
       const data = await res.json();
 
-      // ✅ Δημιουργία userData για το onRegister
+      // Δημιουργία userData για το onRegister
       const userData = {
         email,
         role: data.role || 'user'
       };
 
-      // ✅ Καθαρισμός και callback
+      // Καθαρισμός και callback
       setEmail('');
       setPassword('');
       setConfirm('');
